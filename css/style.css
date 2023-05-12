@@ -1,0 +1,313 @@
+section{
+    padding-top: 85px;
+    padding-bottom: 50px;
+}
+body{
+    background-color: #fa0303;
+}
+.carousel{
+    background-repeat: no-repeat;
+    background-size: cover;
+        height: 100%;
+}
+nav{
+    background-color: #fa0303 !important;
+}
+.nav-link, .nav-item{
+    color:  #fff !important;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*.nav{
+    height: 100px !important;
+    background-color: #9f0e12 !important;
+    box-shadow: 0px 0px 0px 0px black;
+    margin-bottom: 250px !important;
+    font-size: 20px;
+}*/
+@media screen and (max-width:769px){
+    .carousel{
+            height: 100%;
+    }
+    .nav-link, .nav-item{
+    color:  #ef3035 !important;
+    font-size: 20px;
+    margin-bottom: 0px !important;
+}
+    .contato-index img{
+        margin-bottom: 20px;
+    }
+    .numeros img{
+        margin-top: 20px;
+    }
+    .numeros h2{
+        margin-bottom: 20px;
+    }
+    .rodape p{
+        margin-top: 20px;
+    }
+.rodape img{
+    margin-bottom: 30px;
+}
+    .project{
+        margin-bottom: 25px;
+        
+    margin-left: 0px !important;
+    }
+}
+p{
+    font-size:20px;
+    color: #fff;
+}
+.logo{
+    width: 100%;
+    height: 180px;
+}
+
+.nav-branco ul, li, label{
+    margin-top: 15px;
+    color: white;
+    margin-left: 10px;
+}
+.nav-branco a{
+    color: white !important;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-top: 2px !important;
+}
+.subpaginas h3{
+   margin-top: 216px;
+    margin-left: 30%;
+}
+.clientes-trabalho{
+    padding-top: 150px;
+}
+.clientes-trabalho h3{
+    text-align: center;
+}
+.hr{
+    border: 1px solid #fff;
+}
+.valores, ul, li{
+    text-align: center;
+}
+.quadrados ul , li{
+    line-height: 23px;
+    text-align: left !important;
+    color: #fff !important;
+}
+.quadrados{
+    padding: 20px;
+    font-size:20px;
+}
+
+.missao{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.numeros{
+    padding: 50px 0px;
+    background-color: #fff !important;
+}
+.numeros img{
+    margin-left: 160px;
+    display: block !important;
+}
+.numeros p{
+    color: #9f0e12 !important;
+    font-size: 20px;
+    text-align: center;
+}
+.numeros h2{
+    color: #fa0303 !important;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+h2{
+    margin-top: -20px;
+    margin-bottom: 50px;
+    text-align: center !important;
+    font-size: 48px;
+    /*color: #f12529;*/
+    color: #fff;
+}
+h3{
+    text-align: left !important;
+}
+.contato{
+    padding-top: 200px;
+}
+.contato .contact{
+    float: left;
+    font-size: 20px;
+}
+.contato img{
+    margin-left: 10px;
+    width: 30px !important;
+    height: 30px !important;
+}
+.contato h4{
+    font-weight: 600;
+    color: #f12529;
+}
+.rodape{
+    background-color: #fff !important;
+    margin-bottom: 0;
+}
+.rodape p{
+    text-align: center;
+    color: #fa0303 !important;
+    margin-top: -20px;
+}
+.rodape img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #ef3035;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #ef3035;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #ef3035;
+	color: #ef3035;
+}
+.cadastro p{
+    text-align: center;
+}
+.cadastro input{
+    width: 100%;
+    padding: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.cadastro select{
+     width: 100%;
+    padding: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.cadastro textarea{
+    width: 100%;
+    padding: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.cadastro button{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #fa0303;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.galeria img{
+    margin-bottom: 20px;
+}
+.project {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/gera-10-1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 0 !important;
+	float:left;
+    margin-left: 60px;
+}
+
+.project-2 {
+	background-image: url(../img/gera-6-1.jpg);
+}
+
+
+.project-hover {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	opacity: 0.5;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: rgba(2, 2, 2, 0.7);
+	padding: 40% 30px !important;
+}
+
+.project-hover hr {
+	height: 30px;
+	width: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: rgba(255, 255, 255, 1);
+	border: 0;
+}
+
+.project-hover a {
+	color: rgba(255, 255, 255, 1);
+	padding: 2px 22px;
+	line-height: 40px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+	border-color: rgba(51, 51, 51, 1);
+	color: rgba(51, 51, 51, 1);
+	background-color: #FFF;
+}
+
+.project:hover .project-hover {
+	opacity: 1;
+}
+
+.project:hover .project-hover hr {
+	width: 100%;
+	height: 5px;
+}
